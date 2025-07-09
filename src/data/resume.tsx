@@ -4,7 +4,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Vineet Bimal",
   initials: "VBS",
-  url: "https://dillion.io",
+  url: "https://vineetbs.tech",
   location: "Bhopal,India",
 
   description:
@@ -115,7 +115,7 @@ export const DATA = {
     },
     {
       title: "Notelink",
-      href: "https://notelink.onrender.com",
+      href: "https://notelinks.onrender.com",
       dates: "",
       active: true,
       description:
