@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "I write clean code, design systems, and ship full‑stack projects.",
   summary:
-    "I’m a final-year B.Tech student and full-stack developer who loves building software that people actually use. I work across the stack—designing responsive UIs, building APIs, and managing databases with tools like Next.js, MongoDB, and PostgreSQL.  I'm currently looking for internships and job opportunities, and I'm driven to build something big in tech.",
+    "I’m a full‑stack web developer who brings ideas to life from wireframe to deployment. Comfortable with JavaScript and TypeScript, I design intuitive user interfaces and build reliable back‑end APIs that keep sites fast and secure. I thrive on solving tricky problems and crafting experiences people enjoy—whether that’s sketching a layout, writing clean code, or optimizing performance.",
   avatarUrl: "",
   skills: [
     "React JS",
@@ -84,7 +84,7 @@ export const DATA = {
   projects: [
     {
       title: "Repro",
-      href: "https://recpro.vercel.app",
+      href: "https://recpro.vineetbs.tech",
       dates: "",
       active: true,
       description:
@@ -101,7 +101,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://recpro.vercel.app",
+          href: "https://recpro.vineetbs.tech",
           icon: <Icons.globe className="size-3" />,
         },
         {
@@ -115,7 +115,7 @@ export const DATA = {
     },
     {
       title: "Notelink",
-      href: "https://notelinks.onrender.com",
+      href: "https://notelink.vineetbs.tech",
       dates: "",
       active: true,
       description:
@@ -135,7 +135,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://notelink.onrender.com",
+          href: "https://notelink.vineetbs.tech",
           icon: <Icons.globe className="size-3" />,
         },
         {
