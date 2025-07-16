@@ -1,6 +1,6 @@
 # Vineet's Portfolio
 
-[Live Website](https://vineetbs.vercel.app) • [GitHub Profile](https://github.com/vineetbs)
+[Live Website](https://vineetbs.tech) • [GitHub Profile](https://github.com/vineetbs)
 
 ## Overview
 
