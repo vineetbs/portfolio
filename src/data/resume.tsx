@@ -36,7 +36,7 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "http://linkedin.com/in/vineetbs",
+        url: "http://linkedin.com/in/vineetbsinha",
         icon: Icons.linkedin,
 
         navbar: true,
