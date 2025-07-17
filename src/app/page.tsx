@@ -5,6 +5,7 @@ import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
@@ -148,62 +149,57 @@ export default function Page() {
           ))}
         </div>
       </section>
-
-      {/* <section id="hackathons">
-        <div className="space-y-12 w-full py-12">
-          <BlurFade delay={BLUR_FADE_DELAY * 13}>
-            <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <div className="space-y-2">
+      <section>
+        <div className="grid  gap-4 px-4  md:px-6 w-full py-12">
+          <BlurFade delay={BLUR_FADE_DELAY * 16}>
+            <div>
+              <div className="text-center">
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                  Hackathons
+                  Contact
                 </div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  I like building things
+                <h2 className="text-2xl font-bold tracking-tighter sm:text-5xl py-2">
+                  Contact Me
                 </h2>
-                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  During my time in university, I attended{" "}
-                  {DATA.hackathons.length}+ hackathons. People from around the
-                  country would come together and build incredible things in 2-3
-                  days. It was eye-opening to see the endless possibilities
-                  brought to life by a group of motivated and passionate
-                  individuals.
-                </p>
+              </div>
+              <div className="m-2 grid mx-2">
+                <form action="" className="mx-2">
+                  <div className="text-xl">Name</div>
+                  <input
+                    type="text"
+                    placeholder="Enter your name here..."
+                    className="block my-2 w-full p-2 rounded-xl  border-gray-500 border focus:bg-gray-100  dark:focus:bg-gray-900 focus:outline-none  "
+                  />
+                  <div className="text-xl">Email</div>
+                  <input
+                    type="text"
+                    placeholder="name@example.com"
+                    className="block my-2 w-full p-2 rounded-xl  border-gray-500 border focus:bg-gray-100  dark:focus:bg-gray-900 focus:outline-none  "
+                  />
+                  <div className="text-xl">Message</div>
+                  <textarea
+                    placeholder="Enter your message here..."
+                    className="block my-2 w-full p-2 rounded-xl  border-gray-500 border focus:bg-gray-100  dark:focus:bg-gray-900 focus:outline-none h-[80px] "
+                  />
+                  <div className="text-center py-2">
+                    <Button
+                      variant={"secondary"}
+                      className="w-[100px] hover:bg-gray-400 dark:hover:bg-gray-600 bg-gray-300 dark:bg-gray-900"
+                    >
+                      Submit
+                    </Button>
+                  </div>
+                </form>
               </div>
             </div>
           </BlurFade>
-          <BlurFade delay={BLUR_FADE_DELAY * 14}>
-            <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
-              {DATA.hackathons.map((project, id) => (
-                <BlurFade
-                  key={project.title + project.dates}
-                  delay={BLUR_FADE_DELAY * 15 + id * 0.05}
-                >
-                  <HackathonCard
-                    title={project.title}
-                    description={project.description}
-                    location={project.location}
-                    dates={project.dates}
-                    image={project.image}
-                    links={project.links}
-                  />
-                </BlurFade>
-              ))}
-            </ul>
-          </BlurFade>
         </div>
-      </section> */}
+      </section>
       <section id="contact">
-        <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
+        <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
             <div className="space-y-3">
-              {/* <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                Contact
-              </div> */}
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                Contact Me
-              </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Contact me at{" "}
+                Reach out to me at{" "}
                 <a
                   href={"mailto:thevineetbimal@gmail.com?"}
                   className="underline text-blue-800"
@@ -220,7 +216,7 @@ export default function Page() {
               </Link>{" "}
               or{" "}
               <Link
-                href={"http://linkedin.com/in/vineetbs"}
+                href={"http://linkedin.com/in/vineetbsinha"}
                 className="underline text-blue-600"
               >
                 Linkedin
