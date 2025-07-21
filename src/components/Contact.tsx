@@ -2,9 +2,11 @@
 import React, { useState } from "react";
 import { Button } from "./ui/button";
 import BlurFade from "./magicui/blur-fade";
-import { BLUR_FADE_DELAY } from "@/app/page";
+
 import emailjs from "@emailjs/browser";
 import { toast, Toaster } from "sonner";
+
+const BLUR_FADE_DELAY = 0.04;
 
 const Contact = () => {
   const [formData, setformData] = useState({
