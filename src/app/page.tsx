@@ -1,3 +1,4 @@
+import Contact from "@/components/Contact";
 import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
@@ -10,7 +11,7 @@ import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
 
-const BLUR_FADE_DELAY = 0.04;
+export const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
   return (
@@ -149,51 +150,9 @@ export default function Page() {
           ))}
         </div>
       </section>
-      <section>
-        <div className="grid  gap-4 px-4  md:px-6 w-full py-12">
-          <BlurFade delay={BLUR_FADE_DELAY * 16}>
-            <div>
-              <div className="text-center">
-                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                  Contact
-                </div>
-                <h2 className="text-2xl font-bold tracking-tighter sm:text-5xl py-2">
-                  Contact Me
-                </h2>
-              </div>
-              <div className="m-2 grid mx-2">
-                <form action="" className="mx-2">
-                  <div className="text-xl">Name</div>
-                  <input
-                    type="text"
-                    placeholder="Enter your name here..."
-                    className="block my-2 w-full p-2 rounded-xl  border-gray-500 border focus:bg-gray-100  dark:focus:bg-gray-900 focus:outline-none  "
-                  />
-                  <div className="text-xl">Email</div>
-                  <input
-                    type="text"
-                    placeholder="name@example.com"
-                    className="block my-2 w-full p-2 rounded-xl  border-gray-500 border focus:bg-gray-100  dark:focus:bg-gray-900 focus:outline-none  "
-                  />
-                  <div className="text-xl">Message</div>
-                  <textarea
-                    placeholder="Enter your message here..."
-                    className="block my-2 w-full p-2 rounded-xl  border-gray-500 border focus:bg-gray-100  dark:focus:bg-gray-900 focus:outline-none h-[80px] "
-                  />
-                  <div className="text-center py-2">
-                    <Button
-                      variant={"secondary"}
-                      className="w-[100px] hover:bg-gray-400 dark:hover:bg-gray-600 bg-gray-300 dark:bg-gray-900"
-                    >
-                      Submit
-                    </Button>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </BlurFade>
-        </div>
-      </section>
+
+      <Contact />
+
       <section id="contact">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>

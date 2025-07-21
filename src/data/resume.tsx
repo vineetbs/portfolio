@@ -110,8 +110,9 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/recpro.png",
-      video: "",
+      image: "",
+      video:
+        "https://res.cloudinary.com/djlgptm0y/video/upload/recprooo_tks9ct.mp4",
     },
     {
       title: "Notelink",
@@ -144,8 +145,9 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/notelink.png",
-      video: "",
+      image: "",
+      video:
+        "https://res.cloudinary.com/djlgptm0y/video/upload/httpsnotelinkapp.vercel.appnoteid_98t15rqoy4_mb8qmg.mp4",
     },
     {
       title: "Agrihelp",
@@ -167,8 +169,9 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/agrihelp.png",
-      video: "",
+      image: "",
+      video:
+        "https://res.cloudinary.com/djlgptm0y/video/upload/agrihelpp_jd8g76.mp4",
     },
   ],
   hackathons: [
